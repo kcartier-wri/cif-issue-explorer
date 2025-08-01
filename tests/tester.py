@@ -1,4 +1,4 @@
-from timezonefinder_code import get_tz_name
+from src.timezonefinder_code import get_tz_name
 
 
 def test_tzf():
