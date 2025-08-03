@@ -8,8 +8,7 @@ setup(
     author="Justin Terry, Kenn Cartier",
     license="MIT",
     install_requires=[
-        "timezonefinder==6.6.2" # ==6.0.1"
-
+        "timezonefinder" # ==6.6.2" # ==6.0.1"
         # "earthengine-api",
         # "geocube",
         # "odc-stac",
@@ -20,7 +19,6 @@ setup(
         # "xee",
         # "rioxarray",
         # "utm",
-
         # "osmnx>=2.0.1",
         # "geopandas",
         # "xarray",
@@ -31,7 +29,6 @@ setup(
         # "scikit-image>=0.25.2",
         # "exactextract>=0.2.0",
         # "cfgrib",
-        
         # "scipy",
         # "numpy",
         # "overturemaps",
