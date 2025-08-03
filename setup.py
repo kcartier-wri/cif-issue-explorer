@@ -4,7 +4,7 @@ setup(
     name="cif-issue-explorer",
     version="0.3.0",
     description="Module to calculate various metrics on cities.",
-    packages=find_namespace_packages(include=['timezonefinder.data.holes']),
+    packages=find_namespace_packages(include=['timezonefinder.data']),
     include_package_data=True,
     author="Justin Terry, Kenn Cartier",
     license="MIT",
