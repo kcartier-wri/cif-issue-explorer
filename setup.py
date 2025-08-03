@@ -1,14 +1,10 @@
-from setuptools import  setup
+from setuptools import  setup, find_namespace_packages
 
 setup(
-    name="city_metrix",
+    name="cif-issue-explorer",
     version="0.3.0",
     description="Module to calculate various metrics on cities.",
-    packages=[
-        'timezonefinder',
-        'timezonefinder.data',
-        'timezonefinder.data.holes',  # Explicitly include this
-    ],
+    packages=find_namespace_packages(include=['timezonefinder.data.holes']),
     include_package_data=True,
     author="Justin Terry, Kenn Cartier",
     license="MIT",
