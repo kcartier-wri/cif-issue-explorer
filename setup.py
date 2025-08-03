@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import  setup
 
 setup(
     name="city_metrix",
@@ -9,6 +9,7 @@ setup(
         'timezonefinder.data',
         'timezonefinder.data.holes',  # Explicitly include this
     ],
+    include_package_data=True,
     author="Justin Terry, Kenn Cartier",
     license="MIT",
     install_requires=[
